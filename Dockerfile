@@ -6,7 +6,7 @@ WORKDIR /app
 
 #copy the java program file into the container
 
-COPY Factorial.java
+COPY Factorial.java /app/
 
 #compile the java program inside the container
 
